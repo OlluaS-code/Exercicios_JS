@@ -8,8 +8,8 @@ while (continuar) {
     let TempSer = Number(readlineSync.question("Digite o tempo de servico em anos: "));
     let desempenho = Number(readlineSync.question("Digite a pontuacao de desempenho (1 a 10): "));
 
-    let bonusBase = 0;
-    let bonusFinal = 0;
+    let bonusBase = 0
+    let bonusFinal = 0
 
     if (TempSer <= 2) {
         bonusBase = salario * 0.05;
